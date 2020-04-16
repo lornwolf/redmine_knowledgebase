@@ -151,7 +151,6 @@ module KnowledgebaseHelper
     return thumb
   end
 
-
   def get_article_thumbnail_url( article )
     
     thumb = get_article_thumbnail( article )
@@ -163,6 +162,18 @@ module KnowledgebaseHelper
     end
   end
 
+  def get_article_original_url( article )
+    
+    thumb = get_article_thumbnail( article )
+
+    if thumb
+      # 显示高清原图，不显示缩略图。
+      return "/redmine/attachments/download/" + thumb.id.to_s + "/" + thumb.filename
+    else
+      return nil
+    end
+  end
+  
   def get_article_thumbnail_url_absolute( article )
     
     thumb = get_article_thumbnail( article )

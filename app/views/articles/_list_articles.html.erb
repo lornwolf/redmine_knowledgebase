@@ -6,7 +6,7 @@
   <div id="article-<%= article.id %>" class="flex-item box" >
 
       <% style = '' %>
-      <% thumb = get_article_thumbnail_url( article ) %>
+      <% thumb = get_article_original_url( article ) %>
       <% if thumb %>
           <% style = 'background-image: url(' + thumb + ');' %>
       <% end %>
