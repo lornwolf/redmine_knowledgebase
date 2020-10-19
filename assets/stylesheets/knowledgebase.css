@@ -76,7 +76,7 @@ h3.cattitle {
 .category-header { padding-top: 0; font-size:15px; font-weight:bold; padding-bottom: 10px; border-bottom: solid 1px #D5E2F1; }
 .category-title { background-image: url(../images/category.png); background-repeat: no-repeat; padding-left:22px; }
 .category-title a { font-weight:bold;}
-.category-summary { font-weight: normal; font-size: 11px; color: #777777; text-decoration: none; padding: 0px 10px 5px; }
+.category-summary { font-weight: normal; font-size: 14px; color: #777777; text-decoration: none; padding: 0px 10px 5px; }
 
 .rating-title { font-size:14px; font-weight:bold; color:#C60; }
 .rating-title span { font-size:12px; font-weight:normal; }
